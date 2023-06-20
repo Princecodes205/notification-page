@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* Primary */
+  --red: hsl(1, 90%, 64%);
+  --blue: hsl(241, 74%, 42%);
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --light-grayish-blue-1: hsl(210, 60%, 98%);
+  --Light-grayish-blue-2: hsl(205, 33%, 90%);
+  --grayish-blue: hsl(219, 14%, 63%);
+  --dark-grayish-blue: hsl(219, 12%, 42%);
+  --very-dark-blue: hsl(224, 21%, 14%);
+  --body-bg: #efebfa;
+}
+html {
+  /* font-family: ; */
+  font-family: "Plus Jakarta Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--Light-grayish-blue-2);
+}
+
+main {
+  height: auto;
+  width: auto;
+  max-width: 45rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  color: var(--grayish-blue);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+main .head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+main .head h1 {
+  color: var(--very-dark-blue);
+  font-size: 1.3rem;
+}
+main .head h1 span {
+  color: var(--white);
+  border-radius: 10px;
+  font-size: 1.1rem;
+  padding: 1px 10px;
+  background-color: var(--blue);
+  margin-left: 0.6rem;
+}
+main .head p {
+  color: var(--dark-grayish-blue);
+  font-size: 1rem;
+}
+main .notified {
+  background-color: var(--light-grayish-blue-1);
+  padding: 1rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  color: var(--grayish-blue);
+}
+main img {
+  margin: 1rem;
+  width: 40px;
+  height: 40px;
+}
+main .icon {
+  margin-top: 0.7rem;
+  margin-left: 1rem;
+  float: right;
+  display: flex;
+  background-color: var(--red);
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+main .noti {
+  margin-left: 2px;
+  color: var(--dark-grayish-blue);
+  font-weight: bold;
+  align-items: center;
+}
+main .noti:hover,
+main .chess:hover,
+main .bold:hover,
+main .head p:hover {
+  color: var(--blue);
+  cursor: pointer;
+}
+main .today {
+  margin-left: 5px;
+}
+main .bold {
+  margin-right: 5px;
+  font-weight: bold;
+  color: var(--very-dark-blue);
+}
+main .time {
+  color: var(--grayish-blue);
+}
+main .chess {
+  margin-left: 5px;
+  color: var(--blue);
+  font-weight: bold;
+}
+main .seen {
+  padding: 1rem;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  color: var(--grayish-blue);
+}
+
+main .private {
+  border: 1px solid var(--grayish-blue);
+  padding: 1rem;
+  margin-left: 5.5rem;
+}
+main .kimimg {
+  position: absolute;
+  margin-left: 37.3rem;
+}
+main .hidden{
+  display: none;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

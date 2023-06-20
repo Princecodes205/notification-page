@@ -1,0 +1,23 @@
+@media only screen and (min-width: 200px) and (max-width: 700px) {
+  main {
+    font-size: 12px;
+    margin: 0px 0px;
+    border-radius: 0;
+    padding: 10px;
+  }
+  main .kimimg {
+    display: inline-block;
+    margin-left: 2rem;
+    position: relative;
+  }
+
+  main .private {
+    margin-top: 5px;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 2rem;
+  }
+}
