@@ -53,15 +53,8 @@ finally js helped with the javascript to mark all new notifications as seen.
 
 Notin new though, just enjoyed the process 😎
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
 
 - Website - [Prince Createz](https://www.princecreatez.netlify.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/Princecodes205/@Princecodes205)
-- Twitter - [@yourusername](https://www.twitter.com/@prince_champs)
+- Frontend Mentor - [Prince Createz](https://www.frontendmentor.io/Princecodes205/@Princecodes205)
+- Twitter - [Prince Createz](https://www.twitter.com/@prince_champs)
