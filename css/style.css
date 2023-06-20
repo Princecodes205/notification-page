@@ -95,6 +95,10 @@ main .noti {
   font-weight: bold;
   align-items: center;
 }
+main .private:hover{
+  background-color: var(--light-grayish-blue-1);
+  border: 1px solid transparent;
+}
 main .noti:hover,
 main .chess:hover,
 main .bold:hover,
